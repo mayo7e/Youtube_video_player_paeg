@@ -29,8 +29,9 @@ main {
  .content{
   height: 100%;
   width: 56%;
-  background-color: rgb(119, 50, 50);
+  background-color: #f9f9f9;
   overflow-y: hidden;
+
 } 
 
 .left {
@@ -93,11 +94,9 @@ input:focus {
 .side-bar {
   background-color: #f9f9f9;
   height: 100%;
-  /* width: 44%; */
   padding: 15px 15px;
   border-top: 1px solid #ddd;
-  border: 2px solid tomato;
-  /* overflow-y: scroll; */
+ 
 }
 
  .video {
@@ -110,7 +109,33 @@ input:focus {
 .title{
   display: flex;
   flex-direction: column;
+  gap: 6px;
 }
+
+.play_video{
+  text-align: right;
+}
+
+.play-details{
+  padding-left: 68px;
+ gap: 6px;
+}
+
+.details-img{
+  display: flex;
+  align-items: center;
+}
+.details-img img{
+    border-radius: 50%;
+}
+
+.details-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 15px;
+}
+
 
 
 @media (max-width: 768px) {
